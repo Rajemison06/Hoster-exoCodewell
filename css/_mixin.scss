@@ -1,0 +1,14 @@
+@mixin btn-modified {
+    border: none;
+    color: $color-join;
+} 
+
+@mixin btn-primary {
+    background-color: $btn-color-primary;
+    width: 50px;
+}
+
+@mixin link-modified {
+    color: $color-primary;
+    text-decoration: none;
+}

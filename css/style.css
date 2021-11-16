@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 19px;
+  font-family: sans-serif;
+  color: #6c7074;
+  margin: 0;
+  padding: 0;
+  background: #fffbf1;
+}
+
+.container {
+  padding: 0 40px;
+}
+
+/*all link*/
+a {
+  color: #6c7074;
+  text-decoration: none;
+}
+
+/*all list li*/
+li {
+  list-style-type: none;
+}
+
+/*all <button>*/
+button {
+  border: none;
+  color: #fff;
+}
+
+/*all button to join*/
+.btn__join {
+  background: #0d6efd;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 19px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5rem 0;
+}
+.nav__content {
+  display: flex;
+}
+.nav__item {
+  padding: 0 20px 0 0;
+}
+.nav__link {
+  display: block;
+}
+
+/*      logo    */
+.logo__btn {
+  background-image: linear-gradient(to right, #f9af24, #ff9346, #ff786c, #ff6895, #ff67bd);
+  margin: 13px 0 0 15px;
+  height: 30px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+}
+
+/* form in nav */
+.form__content__link {
+  padding-right: 20px;
+  margin-top: 15px;
+}
+
+/*corps de la page qui s'occupe le plus d'espace*/
+.body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+
+.pics {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  right: 155px;
+}
+.pics .img1 {
+  width: 387px;
+  height: 443px;
+}
+.pics__child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.pics__child--1 {
+  z-index: 4;
+}
+.pics__child--2 {
+  transform: rotate(-15deg);
+  z-index: 3;
+  right: 15px;
+  top: 15px;
+}
+.pics__child--3 {
+  transform: rotate(-30deg);
+  right: 25px;
+  top: 35px;
+  z-index: 2;
+}
+.pics__child--4 {
+  transform: rotate(-45deg);
+  right: 35px;
+  top: 55px;
+  z-index: 1;
+}
+
+.content {
+  width: 50%;
+  padding: 20px 0 0 60px;
+}
+.content__title {
+  color: #000;
+  font-size: 3rem;
+}
+.content__paragraph {
+  font-size: 19px;
+}
+.content__form__input {
+  border: none;
+  padding: 16px;
+  width: 370px;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 19px;
+}
+.content__notice__check {
+  position: relative;
+  top: 5px;
+  padding-right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+.footer__content {
+  display: flex;
+}
+.footer__social {
+  padding-left: 65px;
+}
+.footer__social__item {
+  padding-right: 20px;
+}
+.footer__help {
+  padding-right: 70px;
+}
+.footer__help__img {
+  padding: 18px 10px;
+}
+.footer__help__link {
+  color: #000;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
